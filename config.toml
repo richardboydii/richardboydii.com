@@ -1,77 +1,51 @@
-# Site settings
-baseurl = "https://www.richardboydii.com"
-languageCode = "en-us"
-theme = "hugo-identity-theme"
+baseurl = "https://example.com/"
+languageCode = "en-US"
 title = "Richard Boyd II"
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+theme = "hugo-sustain"
 
-# googleAnalytics = "UA-XXXXX-Y"
+[permalinks]
+  post = "/:year/:month/:day/:slug"
+  resume = "/:filename/"
 
 [params]
-  
-  # Images settings
-  # Icons, backgrounds and avatars folders are placed in theme's static/images folder.
-  # You may place your images in corresponding folders and then set only filenames below to
-  # change page's appearance
-  
-  favicon = "favicon.ico"
-  appletouchicon = "apple-touch-icon-precomposed.png"
-  background = "bg1.jpg"
-  avatar = "jane.jpg"
-  
-  # Personal settings
-  
-  name = "Richard Boyd"
-  position = "Senior DevOps Engineer"
-  
-  # Extra stuff
-  # NOTE: There is little different extra stuff in original Identity theme by HTML5 UP.
-  # You can play with it downlading original theme right here:
-  # html5up.net/identity/download
-  #
-  # Since this template is static, the contact form uses www.formspree.io as a
-  # proxy. The form makes a POST request to their servers to send the actual
-  # email. Visitors can send up to a 1000 emails each month for free.
-    #
-    # What you need to do for the setup?
-    #
-    # - set your email address under 'email' below
-  # - enable form by setting 'enable' to 'true'
-    # - upload the generated site to your server
-    # - send a dummy email yourself to confirm your account
-    # - click the confirm link in the email from www.formspree.io
-    # - you're done. Happy mailing!
-  
-  email = "your@email.com"
-  
-  # Contact form settings
-    
-  [params.contact]
-    enable = false
-    formTitle = "Touch Me!"
-    namePlaceholder = "Name"
-    emailPlaceholder = "Email"
-    messagePlaceholder = "Message"
-    buttonText = "Send it"
-    
-  # Social settings
-  # You may change these with your social links or add others
+  avatar = "headshot_small.jpg"
+  author = "Richard Boyd II"
+  description = "RichardBoydII.com"
 
-  [[params.social]]
-    title = "Twitter"
-    icon = "fa-twitter"
-    link = "#"
+  # Custom assets can be linked with their paths relative to static/
+  custom_css = []
+  custom_js  = []
 
-  [[params.social]]
-    title = "Instagram"
-    icon = "fa-instagram"
-    link = "#"
-    
-  [[params.social]]
-    title = "Facebook"
-    icon = "fa-facebook"
-    link = "#"
-  
-  # Footer settings
-  [params.footer]
-    copyright = "Richard Boyd II"
-    
+[social]
+  Keybase       = "richardboydii"
+  Github        = "richardboydii"
+  Email         = "me@richardboydii.com"
+  LinkedIn      = "richardboydii"
+  SlideShare    = "retr0grad3"
+  Stackoverflow = "users/755735/richardboydii?tab=profile"
+  Hackernews    = "retr0grad3"
+  Reddit        = "retr0grad3"
+  Meetup        = "15006291"
+  Facebook      = "richinaustin"
+  Twitter       = "richardboydii"
+
+## Main Menu
+[[menu.main]]
+  name = "blog"
+  weight = 100
+  identifier = "blog"
+  url = "https://countzer0.com"
+[[menu.main]]
+  name = "resume"
+  identifier = "resume"
+  weight = 300
+  url = "/resume/"
+[[menu.main]]
+  name = "gpg key"
+  identifier = "gpgkey"
+  weight = 500
+  url = "http://pgp.mit.edu/pks/lookup?op=get&search=0xBC0EBC00422DC2F9"
