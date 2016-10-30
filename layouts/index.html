@@ -1,0 +1,21 @@
+{{ partial "head" . }}
+  <body>
+    <div id="wrap">
+      {{ partial "header" . }}
+      <section id="about">
+        <div class="container">
+        <div class="avatar">
+          <img class="img-circle" src="{{ .Site.BaseURL }}img/{{ .Site.Params.avatar }}" alt="Responsive image">
+        </div>
+        <h3>I'm <strong>{{ .Site.Params.author }}</strong>, an Engineer that does DevOps.</h3>
+        <h3>My passions are automating and designing scalable architecture.</h3>
+        <h3>I'm an active member in the <a href="https://www.meetup.com/austin-devops/">Austin DevOps</a> and <a href="https://www.meetup.com/CloudAustin/">Cloud Austin</a> groups.</h3>
+        <h3>You can see some of my presentations on <a href="http://www.slideshare.net/retr0grad3">SlideShare</a>.</h3>
+        <h3>Contact me at <a href="http://twitter.com/{{ .Site.Social.Twitter }}">@{{ .Site.Social.Twitter }}</a> or by <a href="mailto:{{ .Site.Social.Email }}">email</a>.</h3>
+        {{ partial "social.html" . }}
+        </div>
+      </section>
+    </div>
+    {{ partial "footer" . }}
+  </body>
+</html>

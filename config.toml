@@ -1,10 +1,7 @@
-baseurl = "https://example.com/"
+baseurl = "https://richardboydii.com"
 languageCode = "en-US"
 title = "Richard Boyd II"
-# Enable comments by entering your Disqus shortname
-disqusShortname = ""
-# Enable Google Analytics by entering your tracking code
-googleAnalytics = ""
+googleAnalytics = "UA-86500998-1"
 theme = "hugo-sustain"
 
 [permalinks]
@@ -26,7 +23,7 @@ theme = "hugo-sustain"
   Email         = "me@richardboydii.com"
   LinkedIn      = "richardboydii"
   SlideShare    = "retr0grad3"
-  Stackoverflow = "users/755735/richardboydii?tab=profile"
+  Stackoverflow = "755735/richardboydii?tab=profile"
   Hackernews    = "retr0grad3"
   Reddit        = "retr0grad3"
   Meetup        = "15006291"
@@ -43,7 +40,7 @@ theme = "hugo-sustain"
   name = "resume"
   identifier = "resume"
   weight = 300
-  url = "/resume/"
+  url = "/resume/index.html"
 [[menu.main]]
   name = "gpg key"
   identifier = "gpgkey"

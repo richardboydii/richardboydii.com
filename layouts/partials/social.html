@@ -1,0 +1,47 @@
+<div class="social">
+	<h4>
+    {{ if .Site.Social.Keybase }}
+	  <a href="https://keybase.io/{{ .Site.Social.Keybase }}"><i class="fa fa-user-secret"></i></a>
+    {{ end }}
+
+    {{ if .Site.Social.Github }}
+	  <a href="https://github.com/{{ .Site.Social.Github }}"><i class="fa fa-github"></i></a>
+    {{ end }}
+
+    {{ if .Site.Social.Email }}
+	  <a href="mailto:{{ .Site.Social.Email }}"><i class="fa fa-envelope"></i></a>
+    {{ end }}
+
+    {{ if .Site.Social.LinkedIn }}
+	  <a href="https://linkedin.com/in/{{ .Site.Social.LinkedIn }}"><i class="fa fa-linkedin"></i></a>
+    {{ end }}
+
+    {{ if .Site.Social.SlideShare }}
+	  <a href="http://www.slideshare.net/{{ .Site.Social.SlideShare }}"><i class="fa fa-slideshare"></i></a>
+    {{ end }}
+
+    {{ if .Site.Social.Stackoverflow }}
+	  <a href="https://stackoverflow.com/users/{{ .Site.Social.Stackoverflow }}"><i class="fa fa-stack-overflow"></i></a>
+    {{ end }}
+
+    {{ if .Site.Social.Meetup }}
+	  <a href="https://www.meetup.com/members/{{ .Site.Social.Meetup }}"><i class="fa fa-meetup"></i></a>
+    {{ end }}
+
+    {{ if .Site.Social.Hackernews }}
+	  <a href="https://news.ycombinator.com/user?id={{ .Site.Social.Hackernews }}/"><i class="fa fa-hacker-news"></i></a>
+    {{ end }}
+
+    {{ if .Site.Social.Reddit }}
+	  <a href="https://www.reddit.com/user/{{ .Site.Social.Reddit }}"><i class="fa fa-reddit"></i></a>
+    {{ end }}
+
+    {{ if .Site.Social.Facebook }}
+	  <a href="https://twitter.com/{{ .Site.Social.Facebook }}"><i class="fa fa-facebook-official"></i></a>
+    {{ end }}
+
+    {{ if .Site.Social.Twitter }}
+	  <a href="https://twitter.com/{{ .Site.Social.Twitter }}"><i class="fa fa-twitter"></i></a>
+    {{ end }}
+	</h4>
+</div>
