@@ -26,7 +26,18 @@ def build(ctx):
 
 def upload_file(src_dest):
     """Use boto3 to upload a file to S3."""
-    S3.meta.client.upload_file(src_dest[0], BUCKET, src_dest[1])
+    extension = src_dest[0].split(".")[-1]
+    if extension.endswith(("htm", "html", "xml", "css")):
+        c_type = "text/%s" % extension
+    elif extension.endswith(("jpeg", "jpg", "jpe", "png", "gif")):
+        c_type = "image/%s" % extension
+    elif extension.endswith(("json", "js")):
+        c_type = "application/%s" % extension
+    else:
+        c_type = "binary/octet"
+    extra_args = {"ContentType": c_type}
+    S3.meta.client.upload_file(src_dest[0], BUCKET, src_dest[1],
+                               ExtraArgs=extra_args)
 
 
 @task
