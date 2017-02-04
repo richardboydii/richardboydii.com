@@ -10,8 +10,8 @@ from multiprocessing.dummy import Pool as ThreadPool
 OUTPUTDIR = "build"
 THEME = "hugo-sustain"
 BUCKET = "richardboydii.com"
-S3 = boto3.resource("s3")
-
+session = boto3.Session(profile_name="retro")
+S3 = session.resource("s3")
 
 @task
 def build(ctx):
