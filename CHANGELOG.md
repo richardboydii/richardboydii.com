@@ -1,4 +1,7 @@
 # Changelog
+## 2.0.0
+* Moved to Hugo 0.29.
+* Moved to CircleCI for automated builds.
 ## 1.4.1
 * Fixed CSS link for main.css.
 ## 1.4.0
