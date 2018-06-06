@@ -1,32 +1,28 @@
-{{ partial "head" . }}
-    <body>
+{{ partial "header.html" . }}
         <div id="wrap">
 
+
+        {{ partial "main_menu.html" . }}
         <!-- Header -->
-        {{ partial "header" . }}
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h2>What I Can Do</h2>
+                        <h2>Who I Am</h2>
                         <hr></hr>
                     </div>
                     <div class="col-md-12 text-left">
                         <h4><p>
-                            At this point in my career my strengths are leading and
-                            architecting. That takes many forms, from building
-                            coalitions to develop new systems to mentoring
-                            fellow engineers on new technologies. I love to write
-                            code and my current lingua franca is Python, though in
-                            a past life I loved Ruby and hope to get better
-                            aquainted with Rust and Go in the future. As far as
-                            cloud providers go my experience with AWS is deep and
-                            I've had the good fortune to be able to alpha and beta
-                            test new products in their portfolio. When it comes to
-                            automation, I feel that my core purpose is to automate
-                            myself out of a job. So what does all that mean? If you
-                            need someone to come in and help create momentum for
-                            implementing change, help rebuild your infrastructure,
-                            or set up a new CI / CD pipeline, I'm your guy.
+                            I believe that every facet of a company can benefit 
+                            from automation in some way or form. And that gets 
+                            me excited every day that I show up to the office. 
+                            From engineering CI / CD pipelines so that Software 
+                            Engineers can release as fast as they want to 
+                            building business automation processes that allow 
+                            company teams to scale fast, I relish taking on new 
+                            and varying challenges. I'm also a leader that 
+                            enjoys building teams and leading new projects. If 
+                            you're looking for someone to lead your Cloud 
+                            Operations Team then let's talk.
                         </p></h4>
                     </div>
                 </div>
@@ -38,44 +34,46 @@
                 </div>
                 <div class="row">
                     <div class="col-md-5 text-right" >
-                        <h3>Senior Site Reliability Engineer</h3>
+                        <h3>Cloud Operations Engineering Lead</h3>
                         <h4>Bright Health</h4>
                         <h4>January 2017 - Present</h4>
                         <h4>Austin, TX</h4>
                     </div>
                     <div class="col-md-7 text-left" style="border-left: 1px solid #474F88;">
                         <h4><p style="padding-top:10px;">
-                            Bright Health is a young company with an ambituous
-                            goal: revolutionize health insurance in America. My
-                            part in the company is to lead a team that is in
-                            charge of Cloud Infrastructure and Software
-                            Development support. We act as consultants with our
-                            internal customers, helping them decide the best
-                            systems and architectures; in other cases we develop
-                            toolchains and build pipelines so our developers
-                            can speed up their software delivery timeline.
+                            Bright Health is a young company with an ambituous 
+                            goal: revolutionize health insurance in America. My 
+                            part in the company is to lead a team that is in 
+                            charge of Cloud Infrastructure and Software 
+                            Development support. We act as consultants with our 
+                            internal customers, helping them decide the best 
+                            systems and architectures; in other cases we 
+                            develop toolchains and build pipelines so our 
+                            developers can speed up their software delivery 
+                            timeline.
                         </p></h4>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-5 text-right" >
-                        <h3>Senior DevOps Engineer</h3>
+                        <h3>DevOps Engineer Lead</h3>
                         <h4>Civitas Learning</h4>
                         <h4>September 2015 - November 2016</h4>
                         <h4>Austin, TX</h4>
                     </div>
                     <div class="col-md-7 text-left" style="border-left: 1px solid #474F88;">
                         <h4><p style="padding-top:10px;">
-                            At Civitas I wear several hats: DevOps team lead,
-                            architect, and systems engineer. I spend time mentoring
-                            to team members and enjoy bringing new ideas into our
-                            engineering culture. When I'm not working with our AWS
-                            TAMs or adivising managers on ways to approach new
-                            systems designs I focus on creating tooling so that we
-                            can automate our runbooks and carve out time to
-                            innovate. I have focused my efforts in growing my soft
-                            skills and helping foster a positive team culture that
-                            brings out the best in my fellow engineers.
+                            At Civitas I wear several hats: DevOps team lead, 
+                            architect, and systems engineer. I spend time 
+                            mentoring to team members and enjoy bringing new 
+                            ideas into our engineering culture. When I'm not 
+                            working with our AWS TAMs or adivising managers on 
+                            ways to approach new systems designs I focus on 
+                            creating tooling so that we can automate our 
+                            runbooks and carve out time to innovate. I have 
+                            focused my efforts in growing my soft skills and 
+                            helping foster a positive team culture that brings 
+                            out the best in my fellow engineers.
                         </p></h4>
                     </div>
                 </div>
@@ -276,7 +274,6 @@
             </div>
         </div>
     <!-- Footer -->
-    {{ partial "footer" . }}
-
+    {{ partial "footer.html" . }}
     </body>
 </html>

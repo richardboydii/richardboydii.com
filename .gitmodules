@@ -1,3 +1,6 @@
 [submodule "themes/src/hugo-sustain"]
 	path = src/themes/hugo-sustain
 	url = git@github.com:nurlansu/hugo-sustain.git
+[submodule "src/themes/hugo-goa"]
+	path = src/themes/hugo-goa
+	url = https://github.com/shenoybr/hugo-goa.git

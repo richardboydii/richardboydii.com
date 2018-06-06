@@ -1,48 +1,51 @@
 baseurl = "https://richardboydii.com"
 languageCode = "en-US"
-title = "Richard Boyd II"
 googleAnalytics = "UA-86500998-1"
-theme = "hugo-sustain"
+theme = "hugo-goa"
+author = "Richard Boyd II"
+title = "Richard Boyd II"
+enableRobotsTXT = true
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+uglyurls = true
 
 [permalinks]
   post = "/:year/:month/:day/:slug"
-  resume = "/:filename/"
 
 [params]
-  avatar = "headshot_small.jpg"
-  author = "Richard Boyd II"
-  description = "RichardBoydII.com"
+    author = "Richard Boyd II"
+    intro = "Cloud Operations Engineering"
+    description = "I build solutions for machine-scale problems using automation. I live in ATX, enjoy checking out our local craft breweries, and helping orgnanize DevOpsDays Austin. If you want to know more, check About, my Resume, read more at my Blog, or stalk me on social networks."
+    authorimage = "profile.jpg"
+    dateformat = "Jan 2, 2006"
 
-  # Custom assets can be linked with their paths relative to static/
-  custom_css = []
-  custom_js  = []
+## Site Meta Settings
+[params.meta]
+    description = "Richard Boyd II's Personal Website"
+    keywords = "cloudops,devops,richard,boyd,sre,atx,devospdays"
 
-[social]
-  Keybase       = "richardboydii"
-  Github        = "richardboydii"
-  Email         = "me@richardboydii.com"
-  LinkedIn      = "richardboydii"
-  SlideShare    = "retr0grad3"
-  Stackoverflow = "755735/richardboydii?tab=profile"
-  Hackernews    = "retr0grad3"
-  Reddit        = "retr0grad3"
-  Meetup        = "15006291"
-  Facebook      = "richinaustin"
-  Twitter       = "richardboydii"
+## Social Accounts
+[params.social]
+    keybase       = "richardboydii"
+    github        = "richardboydii"
+    email         = "me@richardboydii.com"
+    linkedin      = "richardboydii"
+    slideshare    = "retr0grad3"
+    stackoverflow = "755735/richardboydii?tab=profile"
+    hackernews    = "retr0grad3"
+    reddit        = "retr0grad3"
+    meetup        = "15006291"
+    facebook      = "richinaustin"
+    twitter       = "richardboydii"
+    gitlab        = "richardboydii"
+    pgpkey        = "https://pgp.mit.edu/pks/lookup?op=vindex&search=0x9624FED2C6E4ED88"
+    dockerhub     = "richardboydii"
+    aws           = "https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2017-12-11&ci=AWS00274880"
+    mastodon      = "https://mastodon.technology/@richardboydii"
 
-## Main Menu
-[[menu.main]]
-  name = "blog"
-  weight = 100
-  identifier = "blog"
-  url = "https://countzer0.com"
-[[menu.main]]
-  name = "resume"
-  identifier = "resume"
-  weight = 300
-  url = "/resume/index.html"
-[[menu.main]]
-  name = "gpg key"
-  identifier = "gpgkey"
-  weight = 500
-  url = "http://pgp.mit.edu/pks/lookup?op=get&search=0xBC0EBC00422DC2F9"
+## Extras
+[params.extra]
+    copyright = "© 2018 Richard Boyd II" 
+    poweredby = false
+    highlightjs = true
