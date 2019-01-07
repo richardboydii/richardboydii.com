@@ -19,6 +19,7 @@ uglyurls = true
     description = "I build solutions for machine-scale problems using automation. I live in ATX, enjoy checking out our local craft breweries, and helping orgnanize DevOpsDays Austin. If you want to know more, check About, my Resume, read more at my Blog, or stalk me on social networks."
     authorimage = "profile.jpg"
     dateformat = "Jan 2, 2006"
+    custom_css = ["css/overrides.css"]
 
 ## Site Meta Settings
 [params.meta]
