@@ -1,0 +1,13 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: richardboydii/hugobuilder
+    steps:
+      - checkout
+      - run:
+          name: Pull submodule
+          command: git submodule update --init --recursive
+      - run:
+          name: Build site
+          command: hugo -v -s src -d / project/build
