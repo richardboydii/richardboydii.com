@@ -13,4 +13,4 @@ jobs:
           command: hugo -v -s src -d /project/build
       - run:
           name: Update bucket
-          command: aws s3 ls
+          command: aws s3 ls s3://richardboydii.com
