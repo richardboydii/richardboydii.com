@@ -1,12 +1,4 @@
-# richardboydii.com
-This is a repo for my personal website 
-[richardboydii.com](https://richardboydii.com). The website uses the
-[Hugo](https://gohugo.io) static website engine and the 
-[Goa](https://github.com/shenoybr/hugo-goa) theme. 
+# Personal Site for Richard Boyd II
 
-If you're new to using Hugo, feel free to peruse the repo to see how I've used 
-overrides inlayouts to generate static content and alter the site from the 
-original theme.
-
-The site is hosted using S3, CloudFront, and an SSL cert generated with the 
-AWS Certificate Manager.
+This is the repo for my personal website, [richardboydii.com](richardboydii.com). 
+It's built using GatsbyJS from the official [Gatsby Blog Starter](https://github.com/gatsbyjs/gatsby-starter-blog).
