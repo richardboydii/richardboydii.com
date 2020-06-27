@@ -4,9 +4,9 @@
 			<h3>LATEST POSTS</h3>
 		</div>
 		<div>
-			<ul>
+			<ul style="list-style-type:none;">
 				{{ range first 5 (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
-				<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+				<li>{{ .Date.Format "2006.02.01" }} <a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
 				{{ end }}
 			</ul>
 		</div>

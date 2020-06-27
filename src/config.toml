@@ -3,6 +3,9 @@ languageCode = "en-us"
 title = "Richard Boyd II"
 theme = "smol"
 
+[permalinks]
+  posts = "/:year/:month/:day/:title"
+
 # Header
 [menu]
   [[menu.main]]
