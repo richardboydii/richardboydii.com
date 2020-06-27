@@ -1,10 +1,12 @@
 <footer>
-	<p>&copy; {{ now.Year }} <a href="{{ .Site.BaseURL }}"><b>{{ .Site.Title }}</b></a>.
-	{{- range .Site.Menus.footer }}
-	<a href="{{ .URL }}"><b>{{ .Name }}</b></a>.
-        {{- end }}
-	</p>
-	<p>
-		<i class="fi-hwsuxl-question-mark"></i> 
-	</p>
+	<div style="text-align: center;">
+		<p>&copy; {{ now.Year }} {{ .Site.Params.Author }}
+		{{- range .Site.Menus.footer }}
+		<b>|</b> <a href="{{ .URL }}">{{ .Pre }}</a>
+			{{- end }}
+		</p>
+		<p>
+			<b>Site Updated: {{ .Site.LastChange }}</i>
+		</p>
+	</div>
 </footer>

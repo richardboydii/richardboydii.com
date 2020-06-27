@@ -1,12 +1,10 @@
 <header>
-	{{ strings.Repeat ( .Site.Title | len | add 6 ) "=" }}<br>
-	== <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a> ==<br>
-	{{ strings.Repeat ( .Site.Title | len | add 6 ) "=" }}
+	<a href="{{ .Site.BaseURL }}" class="headernav">{{ .Site.Title }}</a>
 	<div style="float: right;">
 	<nav>
 			{{ with .Site.Menus.main }}
 			{{ range . }}
-			<a href="{{ .URL | relURL }}"><b>{{ .Name }}</b></a>
+			<a href="{{ .URL | relURL }}" class="headernav">/{{ .Name }}</a>
 			{{ end }}
 	</nav>
 	</div>

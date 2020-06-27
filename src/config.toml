@@ -1,7 +1,11 @@
 baseURL = "https://richardboydii.com/"
 languageCode = "en-us"
-title = "Richard Boyd II"
+title = "richardboydii.com"
 theme = "smol"
+
+[params]
+  author = "Richard Boyd II"
+  description = "The personal blog of Richard Boyd II."
 
 [permalinks]
   posts = "/:year/:month/:day/:title"
@@ -41,15 +45,6 @@ theme = "smol"
 # Footer
   [[menu.footer]]
         name = "Github"
-        url = "https://github.com/example"
+        url = "https://github.com/richardboydii"
+        pre = "<i class='fi-onsuxl-github-alt'></i>"
         weight = 1 
-
-    [[menu.footer]]
-        name = "Mastodon"
-        url = "https://example.com/@user"
-        weight = 2 
-
-    [[menu.footer]]
-        name = "Imprint"
-        url = "/imprint"
-        weight = 3 
