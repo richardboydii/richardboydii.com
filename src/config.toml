@@ -2,10 +2,13 @@ baseURL = "https://richardboydii.com/"
 languageCode = "en-us"
 title = "richardboydii.com"
 theme = "smol"
+copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
 
 [params]
-  author = "Richard Boyd II"
   description = "The personal blog of Richard Boyd II."
+
+[author]
+  name = "Richard Boyd II"
 
 [permalinks]
   posts = "/:year/:month/:day/:title"

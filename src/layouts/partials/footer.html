@@ -1,6 +1,6 @@
 <footer>
 	<div style="text-align: center;">
-		<p>&copy; {{ now.Year }} {{ .Site.Params.Author }}
+		<p>&copy; {{ now.Year }} {{ .Site.Author.name }}
 		{{- range .Site.Menus.footer }}
 		<b>|</b> <a href="{{ .URL }}">{{ .Pre }}</a>
 			{{- end }}

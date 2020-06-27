@@ -6,9 +6,9 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<style type=text/css>body{font-family:monospace;}</style>
 	<title>{{ .Title }}</title>
-	{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
-	{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
-    <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+	<meta name="description" content="{{ .Summary | default .Site.Params.description }}" />
+	<meta name="author" content="{{ .Site.Author.name }}" />
+    <link rel="stylesheet" href="{{ "css/style.css" | relURL }}" />
     <script defer src="https://friconix.com/cdn/friconix.js"> </script> 
 	{{ with .OutputFormats.Get "RSS" -}}
 		{{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
