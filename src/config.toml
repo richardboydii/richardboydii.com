@@ -9,6 +9,7 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
 
 [author]
   name = "Richard Boyd II"
+  email = "hey@richardboydii.com"
 
 [permalinks]
   posts = "/:year/:month/:day/:title"
@@ -44,6 +45,12 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
         name = "Blogroll"
         url = "/blogroll/"
         weight = 5
+
+  [[menu.main]]
+        identifier = "rss"
+        name = "RSS"
+        url = "/posts/index.xml"
+        weight = 6
 
 # Footer
   [[menu.footer]]

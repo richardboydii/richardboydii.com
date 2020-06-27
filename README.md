@@ -1,4 +1,7 @@
-# Personal Site for Richard Boyd II
+# My Personal Website
 
-This is the repo for my personal website, [richardboydii.com](richardboydii.com). 
-It's built using GatsbyJS from the official [Gatsby Blog Starter](https://github.com/gatsbyjs/gatsby-starter-blog).
+This is the repo for my personal website, [richardboydii.com](richardboydii.com). This site is built using [Hugo](https://gohugo.io), a static site generator written in [Go](https://golang.org). 
+
+# How It's Made
+
+I often 

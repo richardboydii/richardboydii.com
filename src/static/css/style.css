@@ -26,6 +26,9 @@ pre {
 article {
     padding:20px 0
 }
+a {
+    color: aqua;
+}
 .center {
     display: block;
     margin-left: auto;
@@ -37,6 +40,6 @@ article {
     font:18px/1.8 monospace; 
     font-weight: bold;
 }
-a {
-    color: aqua;
+.footernav {
+    text-decoration: none;
 }
