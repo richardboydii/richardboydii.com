@@ -4,4 +4,5 @@ This is the repo for my personal website, [richardboydii.com](richardboydii.com)
 
 # How It's Made
 
+![My Laptop](https://github.com/richardboydii/richardboydii.com/blob/ver2/images/x260.JPG)
 I often 
