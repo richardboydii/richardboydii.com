@@ -4,5 +4,9 @@ This is the repo for my personal website, [richardboydii.com](richardboydii.com)
 
 # How It's Made
 
+One of the most frustrating things about coming to web design as a tertiary skill is that it can be extremely frustrating to put something together that not just works but also _looks good_. 
+
+## Tools
 ![My Laptop](https://github.com/richardboydii/richardboydii.com/blob/ver2/images/x260.JPG)
-I often 
+
+This website is entirely built on my "personal" laptop, an IBM ThinkPad X260 that I purchased used off of Ebay. I'm currently running Ubuntu 20 and _everything just works_. 
