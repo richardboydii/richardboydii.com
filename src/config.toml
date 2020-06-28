@@ -54,7 +54,30 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
 
 # Footer
   [[menu.footer]]
+        name = "Email"
+        url = "mailto:richardboydii@hey.com"
+        pre = "<i class='fi-xnsuxl-close-envelope-solid'></i>"
+        weight = 1
+  [[menu.footer]]
+        name = "LinkedIn"
+        url = "https://www.linkedin.com/in/richardboydii"
+        pre = "<i class='fi-onsuxl-linkedin'></i>"
+        weight = 2
+
+  [[menu.footer]]
+        name = "Twitter"
+        url = "https://twitter.com/richardboydii"
+        pre = "<i class='fi-onsuxl-twitter'></i>"
+        weight = 3
+
+  [[menu.footer]]
         name = "Github"
         url = "https://github.com/richardboydii"
         pre = "<i class='fi-onsuxl-github-alt'></i>"
-        weight = 1 
+        weight = 4
+
+[[menu.footer]]
+        name = "Discogs"
+        url = "https://www.discogs.com/user/richardboydii"
+        pre = "<i class='fi-onsuxl-volume-2-solid'></i>"
+        weight = 5

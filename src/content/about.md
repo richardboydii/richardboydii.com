@@ -2,7 +2,7 @@
 title = "About"
 date = 2020-06-25T23:08:44-05:00
 draft = false
-type = "static"
+type = "page"
 summary = "About Richard Boyd II and this site."
 +++
 It's hard to write about yourself without sounding like a psycopath. Let's start with the basics. I was born four decades ago in Texas and moved around a lot in my youth. I joined the military after failing out of college and served overseas in a combat zone or two. After living outside of the US for a decade I randomly decided to move to Austin, TX where I've lived for over a decade. I have one wife, one daughter, and three cats (two of which are extremely fat).
