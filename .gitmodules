@@ -1,6 +1,3 @@
-[submodule "themes/src/hugo-sustain"]
-	path = src/themes/hugo-sustain
-	url = git@github.com:nurlansu/hugo-sustain.git
-[submodule "src/themes/hugo-goa"]
-	path = src/themes/hugo-goa
-	url = https://github.com/shenoybr/hugo-goa.git
+[submodule "src/themes/smol"]
+	path = src/themes/smol
+	url = git@github.com:colorchestra/smol.git
