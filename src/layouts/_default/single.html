@@ -1,0 +1,15 @@
+{{ define "main" }}
+	<main>
+		<article>
+			<h1>{{ .Title }}</h1>
+			<b><time>{{ .Date.Format "2006.02.01 15:04 CST" }}</time></b>
+			<i>{{ range .Params.tags }}
+		           <a class="plaina" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">#{{ . }}</a>
+				{{ end }}</i>
+			<div>
+				{{ .Content }}
+			</div>
+		</article>
+	</main>
+{{ partial "sidebar.html" . }}
+{{ end }}

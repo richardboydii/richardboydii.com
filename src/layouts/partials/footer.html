@@ -1,0 +1,14 @@
+<footer>
+	<div style="text-align: center;">
+		<b><p>&copy; {{ now.Year }} {{ .Site.Author.name }}
+		{{- range .Site.Menus.footer }}
+		| <a href="{{ .URL }}">{{ .Pre }}</a>
+			{{- end }}
+		</p>
+		<p> 
+			Site Updated: {{ .Site.LastChange }}
+			| <a class="plaina" href="https://github.com/richardboydii/richardboydii.com/blob/master/README.md">README</a> 	
+			| <a class="plaina" href="https://github.com/richardboydii/richardboydii.com/">SOURCE</a>
+		</p></b>
+	</div>
+</footer>
