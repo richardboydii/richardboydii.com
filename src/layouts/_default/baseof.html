@@ -4,7 +4,6 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<style type=text/css>body{font-family:monospace;}</style>
 	<title>{{ .Title }}</title>
 	<meta name="description" content="{{ .Summary | default .Site.Params.description }}" />
 	<meta name="author" content="{{ .Site.Author.name }}" />
@@ -13,6 +12,7 @@
 	<link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32">
 	<link rel="icon" type="image/png" href="img/favicon-96x96.png" sizes="96x96">
 	<link rel="icon" type="image/png" href="img/favicon-194x194.png" sizes="194x194">
+	<link href="https://fonts.googleapis.com/css2?family=B612+Mono&family=Major+Mono+Display&family=Montserrat&display=swap" rel="stylesheet"> 
     <script defer src="https://friconix.com/cdn/friconix.js"> </script> 
 	{{ with .OutputFormats.Get "RSS" -}}
 		{{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}

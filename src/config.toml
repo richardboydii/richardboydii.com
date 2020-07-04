@@ -61,23 +61,23 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
   [[menu.footer]]
         name = "LinkedIn"
         url = "https://www.linkedin.com/in/richardboydii"
-        pre = "<i class='fi-onsuxl-linkedin'></i>"
+        pre = "<i class='fi-snsuxl-linkedin'></i>"
         weight = 2
 
   [[menu.footer]]
         name = "Twitter"
         url = "https://twitter.com/richardboydii"
-        pre = "<i class='fi-onsuxl-twitter'></i>"
+        pre = "<i class='fi-xnsuxl-twitter'></i>"
         weight = 3
 
   [[menu.footer]]
         name = "Github"
         url = "https://github.com/richardboydii"
-        pre = "<i class='fi-onsuxl-github-alt'></i>"
+        pre = "<i class='fi-xnsuxl-github'></i>"
         weight = 4
 
-[[menu.footer]]
+  [[menu.footer]]
         name = "Discogs"
         url = "https://www.discogs.com/user/richardboydii"
-        pre = "<i class='fi-onsuxl-volume-2-solid'></i>"
+        pre = "<i class='fi-cnsdhl-radar-alt'></i>"
         weight = 5

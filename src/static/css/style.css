@@ -5,12 +5,14 @@ body {
     max-width:800px;
     margin:40px auto;
     padding:0 10px;
-    font:14px/1.5 monospace;
+    font-size: 18px;
     color:#cfcfcf;
     background-color: #1e1d22;
+    font-family: 'Montserrat', sans-serif;
 }
-h1,h2,h3 {
-    line-height:1.2
+h1,h2,h3,h4,h5,h6 {
+    line-height:1.2;
+    font-family: 'Major Mono Display', monospace;
 }
 code {
     color: #FFFFFF; 
@@ -37,9 +39,14 @@ a {
 }
 .headernav {
     text-decoration: none; 
-    font:18px/1.8 monospace; 
+    font:18px/1.8; 
     font-weight: bold;
+    font-family: 'B612 Mono', monospace;
 }
 .plaina {
     text-decoration: none;
+    font-family: 'B612 Mono', monospace;
+}
+.footer {
+    font-family: 'B612 Mono', monospace;
 }
