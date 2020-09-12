@@ -1,10 +1,14 @@
 <article>
 	<h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
 	<b><time>{{ .Date.Format "2006.02.01" }}</time></b>
-	{{ range .Params.tags }}
-	<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+	{{ range .Params.categories }}			
+	in <a class="plaina" href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
 	{{ end }}
-	<div>
+	<br /> 
+	{{ range .Params.tags }}
+		   <a class="plaina" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">#{{ . }}</a>
+		{{ end }}
+	<div><u>Summary</u>:
 		{{ .Summary }}
 		{{ if .Truncated }}
 			<a href="{{ .Permalink }}">Read more...</a>

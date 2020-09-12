@@ -4,9 +4,9 @@
 			<h1>{{ .Title }}</h1>
 			<b><time>{{ .Date.Format "2006.02.01" }}</time></b>
 			{{ range .Params.categories }}			
-			| in <a class="plaina" href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+			in <a class="plaina" href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
 			{{ end }}
-			| 
+			<br /> 
 			{{ range .Params.tags }}
 		           <a class="plaina" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">#{{ . }}</a>
 				{{ end }}
