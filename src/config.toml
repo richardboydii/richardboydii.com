@@ -55,7 +55,7 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
 # Footer
   [[menu.footer]]
         name = "Email"
-        url = "mailto:richardboydii@hey.com"
+        url = "mailto:rich@onmail.com"
         pre = "<i class='fi-xnsuxl-close-envelope-solid'></i>"
         weight = 1
   [[menu.footer]]
