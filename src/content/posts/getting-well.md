@@ -1,10 +1,10 @@
 +++
 title = "Getting Well"
 date = 2020-10-18T15:04:58-05:00
-draft = true
-summary = ""
-tags = [""]
-categories = [""]
+draft = false
+summary = "Mental health is a struggle for some people. I want to share my experiences so that others can feel a little less alone."
+tags = ["personal", "mental health"]
+categories = ["diary"]
 type = "posts"
 +++
 I have struggled with mental wellness most of my life. I think the first time I realized that I 
