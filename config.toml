@@ -9,7 +9,7 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
 
 [author]
   name = "Richard Boyd II"
-  email = "hey@richardboydii.com"
+  email = "me@richardboydii.com"
 
 [permalinks]
   posts = "/:year/:month/:day/:title"
@@ -55,7 +55,7 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
 # Footer
   [[menu.footer]]
         name = "Email"
-        url = "mailto:rich@onmail.com"
+        url = "mailto:me@richardboydii.com"
         pre = "<i class='fi-xnsuxl-close-envelope-solid'></i>"
         weight = 1
   [[menu.footer]]
@@ -81,3 +81,9 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
         url = "https://www.discogs.com/user/richardboydii"
         pre = "<i class='fi-cnsdhl-radar-alt'></i>"
         weight = 5
+
+  [[menu.footer]]
+        name = "Mastodon"
+        url = "https://www.discogs.com/user/richardboydii"
+        pre = "<i class='fi-cnsdhl-radar-alt'></i>"
+        weight = 6
