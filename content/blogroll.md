@@ -13,3 +13,4 @@ Content on the Internet is hard to parse through. Most platforms run on the curr
 
 ## Business
 * [Stratechery](https://stratechery.com/) - Ben Thompson is an independant journalist that does amazing work at the intersection of business, technology, and sometimes culture. Very thought-provoking insights abound.
+* [Austin Inno Beat](https://promo.bizjournals.com/austininno/signup/) - This is the best source for startup news in our little metropolis.

@@ -83,7 +83,7 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
         weight = 5
 
   [[menu.footer]]
-        name = "Mastodon"
-        url = "https://www.discogs.com/user/richardboydii"
-        pre = "<i class='fi-cnsdhl-radar-alt'></i>"
+        name = "Steam"
+        url = "https://steamcommunity.com/id/retr0grad3"
+        pre = "<i class='fi-xnsuxl-steam'></i>"
         weight = 6
