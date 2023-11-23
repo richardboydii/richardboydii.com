@@ -13,7 +13,7 @@ kids and was plagued with self-doubt. I also seemed to have stronger emotional s
 towards anger and sadness. What I didn't realize then is that other kids didn't have the same 
 chaos at home. I was different because my environment was different, and I adapted to survive 
 it.
-
+<!--more-->
 ## You Don't Choose What Happens to You
 Everyone, at some point, has something bad happen to them. Whether it's through their choice 
 or just because the universe can be cruel, something gets through the bubble of optimism and 

@@ -8,7 +8,7 @@ categories = ["writing"]
 type = "posts"
 +++
 Blogging is something that I've attempted and failed numerous times over the past ~~years~~ decades. My first attempt at my own webpage happened in High School in 1996 [with an Angelfire site](https://en.wikipedia.org/wiki/Angelfire). Later I moved onto [Geocities](https://en.wikipedia.org/wiki/Yahoo!_GeoCities) along with the post-AOL crowd. Next came Angelfire, then a dynamic DNS setup pointing to a page hosted in my dorm room at college. For most of the 00's I was radio silent while overseas. When I finally got back to the states I tried to get back into it, first on Facebook, then running my own static site on Bluehost. For the past five years I've been hosting static sites on AWS, which is where we are today.
-
+<!--more-->
 I always wanted to blog. I've had an itch to write most of my life and even aspired to write my own book. But writing is a habit, it's work. You have to commit to it or it just becomes another thing that you start and abandon. So that's why we're back here once again. 
 
 During the past few years I've thought to separate my "landing page" from my Blog. There's no privacy reason for that, it just sounded like a good idea; in reality it's premature optimization. If people want to get to know me, read my words, or just see the other platforms I'm on, they should only need to go to one place to do so. Time to retire all the clever domain names I've registered over the years and stick with one.
