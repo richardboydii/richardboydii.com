@@ -6,10 +6,9 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
 
 [params]
   description = "The personal blog of Richard Boyd II."
-
-[author]
-  name = "Richard Boyd II"
-  email = "me@richardboydii.com"
+    [params.author]
+      name = "Richard Boyd II"
+      email = "me@richardboydii.com"
 
 [permalinks]
   posts = "/:year/:month/:day/:title"

@@ -1,6 +1,6 @@
 <footer>
 	<div class="footer" style="text-align: center;">
-		<b><p>&copy; {{ now.Year }} {{ .Site.Author.name }}
+		<b><p>&copy; {{ now.Year }} {{ .Site.Params.author.name }}
 		<a rel="me" href="https://hachyderm.io/@richardboydii"><i class="fi-snsuxl-mastodon"></i></a>
 		{{- range .Site.Menus.footer }}
 		<a href="{{ .URL }}">{{ .Pre }}</a>
