@@ -13,7 +13,7 @@
 	<link rel="icon" type="image/png" href="img/favicon-96x96.png" sizes="96x96">
 	<link rel="icon" type="image/png" href="img/favicon-194x194.png" sizes="194x194">
 	<link href="https://fonts.googleapis.com/css2?family=B612+Mono&family=Major+Mono+Display&family=Montserrat&display=swap" rel="stylesheet"> 
-    <script defer src="https://friconix.com/cdn/friconix.js"> </script> 
+    <script src="https://kit.fontawesome.com/48886298d8.js" crossorigin="anonymous"></script>
 	{{ with .OutputFormats.Get "RSS" -}}
 		{{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
 	{{- end }}
