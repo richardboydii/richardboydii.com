@@ -13,4 +13,4 @@ In my professionally-adjacent life I'm also an organizer for two conferences: [D
 
 Outiside of that, I enjoy being outdoors. Working in the back yard is something I've done as a child and kept up with all these years. I also dabble in woodworking and like to tinker around the house. I used to be an avid gamer but those days are mostly passed. I do enjoy reading and have been working on getting back into the habit. Finally, I am an aspiring beer connoisseur and always make time to visit breweries when I'm travelling.
 
-I currently work for [Liatrio](https://www.liatrio.com/) as a Technical Principal. I help enterprises implement DevOps fundamentals and make the art of creating software more delightful. It's challenging but deeply rewarding work. 
+I currently work for [Liatrio](https://www.liatrio.com/) as a Delivery Lead. I help enterprises implement DevOps fundamentals and make the art of creating software more delightful. It's challenging but deeply rewarding work.

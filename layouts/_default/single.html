@@ -2,7 +2,7 @@
 	<main>
 		<article>
 			<h1>{{ .Title }}</h1>
-			<b><time>{{ .Date.Format "2006.02.01" }}</time></b>
+			<b><time>{{ .Date.Format "2006.1.2" }}</time></b>
 			{{ range .Params.categories }}			
 			in <a class="plaina" href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
 			{{ end }}

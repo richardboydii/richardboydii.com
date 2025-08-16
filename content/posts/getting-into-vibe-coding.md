@@ -3,7 +3,7 @@ title = "Getting Into Vibe Coding"
 date = 2025-08-15T12:41:59-05:00
 draft = false
 summary = "Vibe coding is making developing software fun again."
-tags = ["ai", "vibe", "typescript"]
+tags = ["ai", "vibe", "typescript", "python"]
 categories = ["development"]
 type = "posts"
 +++
