@@ -64,6 +64,12 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
         weight = 2
 
   [[menu.footer]]
+        name = "X"
+        url = "https://x.com/richardboydii"
+        pre = "<i class='fa-brands fa-x-twitter'></i>"
+        weight = 3
+
+  [[menu.footer]]
         name = "BlueSky"
         url = "https://bsky.app/profile/richardboydii.bsky.social"
         pre = "<i class='fa-brands fa-bluesky'></i>"
@@ -85,4 +91,10 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
         name = "Steam"
         url = "https://steamcommunity.com/id/retr0grad3"
         pre = "<i class='fa-brands fa-steam'></i>"
+        weight = 6
+ 
+  [[menu.footer]]
+        name = "GPG Key"
+        url = "https://keys.openpgp.org/search?q=54FACBDF21904360C469C6BE786424BBCDAAD458"
+        pre = "<i class='fa-solid fa-key'></i>"
         weight = 6
