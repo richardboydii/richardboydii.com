@@ -16,3 +16,7 @@ This website is entirely built on my "personal" laptop, an IBM ThinkPad X260 tha
 1. Fork the repo.
 2. Run `git submodule update --init --recursive` to pull down the [smol theme](https://github.com/colorchestra/smol).
 3. Then run hugo serve to serve the page.
+
+## Creating a new blog post
+
+From the terminal, type `hugo new content content/posts/blah-blah-blah.md`
